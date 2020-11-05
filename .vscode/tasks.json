@@ -1,0 +1,18 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "open browser",
+            "type": "shell",
+            "command": "firefox -new-tab 'file:///home/usera/Desktop/projects/faq-accordion-card-main/index.html'",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+            
+        }
+    ]
+}
