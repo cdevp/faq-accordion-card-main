@@ -47,9 +47,11 @@ html, body {
     #background {
         z-index: 0;
         position: relative;
-        right: 38%;       
-        -webkit-transform: translateY(-42.0%) scale(5.1);
-        transform: translateY(-42.0%) scale(5.1);
+        grid-row: 1;
+        grid-column: 1;
+        right: 68%;       
+        -webkit-transform: translateY(-17.0%) scale(2.0);
+        transform: translateY(-17.0%) scale(2.0);
         height: auto;
         width: 100%;
     }
@@ -61,6 +63,8 @@ html, body {
     #illustration {
         z-index: 10;
         position: relative;
+        grid-column: 1;
+        grid-row: 1;
         right: 45%;
         width: 100%;
         -webkit-transform: scale(2.5);
@@ -73,7 +77,9 @@ html, body {
     }
 
     #illustration-container {
-        display: flex;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 100%;
         flex-direction: row;
     }
 
@@ -102,11 +108,14 @@ html, body {
     
     #box {
         position: relative;
-        width: 48%;
+        grid-row: 1;
+        grid-column: 1;
+        width: 19%;
         z-index: 15;
-        left: -49.5%;
-        margin-bottom: 6%;
-        align-self: flex-end;
+        left: -8.5%;
+        margin-bottom: -3%;
+        align-self: center;
+        object-fit: contain;
     }
     
     #logo {
