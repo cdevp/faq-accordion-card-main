@@ -40,7 +40,8 @@ html, body {
         position: relative;
         width: 100%;
         bottom: 1px;
-        box-shadow: 20px 29px 90px -35px;
+        box-shadow: 35px 30px 95px -50px;
+        max-height: 510px;
     }
  
     #background {
@@ -114,6 +115,7 @@ html, body {
         position: relative;
         height: 100%;
         align-items: center;
+        
     }
     
     #menu {
@@ -267,8 +269,8 @@ html, body {
     #illustration-prof {            
         max-width: 100%;
         grid-column: 2;
-        grid-row: 2 / 4;
         position: relative;
+        grid-row: 2 / 4;
         transform: scale(110%);
         right: 5%;
         bottom: 2%;
